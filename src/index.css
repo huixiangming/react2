@@ -1,0 +1,141 @@
+@import '~antd/dist/antd.css';
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width: 120px;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+}
+/* main */
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+.content{
+    background-color: white;
+    width: 900px;
+    float: left;
+}
+.sider{
+    width: 270px;
+    height: 500px;
+    float: right;
+    background-color: green;
+    font-size: 50px;
+}
+.header a:focus{
+    color: green;
+}
+
+
+.a{
+    position: relative;
+}
+.b{
+    position: relative;
+    margin-top: 10px;
+}
+.c:hover{
+    position: relative;
+    background-color: lightgrey;
+}
+.top{
+    position: relative;
+    height: 30px;
+    margin-top: 5px;
+    color: green;
+    margin-left: 30px;
+}
+.top button{
+    background-color: white;
+    border:none;
+    font-size:16px;
+    margin-right:30px;
+}
+.top button:active{
+    background-color: lightgreen;
+    border:none;
+    font-size:16px;
+    margin-right:30px;
+}
+.top a{
+    color: lightgreen;
+}
+.top a:focus{
+    color: green;
+}
+
+.a li{
+    height: 50px;
+    border:1px solid lightgray;
+}
+.touxiang{
+    margin-left: 10px;
+    height:30px;
+    width:30px;
+}
+.reply{
+    color:purple;
+    margin-left: 10px;
+}
+.visit{
+    color:gray;
+}
+.ask{
+    background-color: lightgray;
+    width: 15px;
+    color: grey;
+    margin-left: 10px;
+}
+.topic{
+    font-size: 16px;
+    margin-left: 5px;
+}
+.touxiang1{
+    position: absolute;
+    width:15px;
+    height:15px;
+    float:right;
+    right:70px;
+}
+.time{
+    position: absolute;
+    right: 5px;
+    font-size:14px;
+}
+.page1{
+    height: 50px;
+    width: 800px;
+}
+.page2{
+    width: 40px;
+    height: 40px;
+    border:1px solid lightgray;
+    background-color: white;
+}
+.page2:focus{
+    width: 40px;
+    height: 40px;
+    border:1px solid lightgray;
+    background-color: lightgreen;
+}
