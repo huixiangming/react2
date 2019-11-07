@@ -7,14 +7,6 @@ import Job from './Job';
 import Dev from './Dev';
 import Ask from './Ask';
 export default class Home extends Component {
-    state = {
-        data: 'data'
-    }
-    getChildMessage (newData) {
-        this.setState({
-            data: newData
-        })
-    }
     render() {
         let url = this.props.match.url
         return (
